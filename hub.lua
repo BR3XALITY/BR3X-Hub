@@ -17,5 +17,9 @@ Section1:NewButton("Fly GUI V3", "Allows You To Fly", function()
 end)
 
 Section1:NewButton("Noclip", "Toggleable Noclipping", function()
-    loadstring(game:HttpGet('https://gist.githubusercontent.com/BR3XALITY/2f343c8bdfb2a6d254ba45cb191ab9e2/raw/073c9c09a874958264386abe50f5554a66fd849e/noclip.lua'))() -- Changed to the noclip script URL
+    loadstring(game:HttpGet('https://gist.githubusercontent.com/BR3XALITY/2f343c8bdfb2a6d254ba45cb191ab9e2/raw/073c9c09a874958264386abe50f5554a66fd849e/noclip.lua'))()
 end)
+
+Section1:NewButton("Subplace Finder", "Allows You To Access Secret Subplaces In Games", function()
+    loadstring(game:HttpGet('https://gist.githubusercontent.com/BR3XALITY/c2faac9cf981bab2859421f5e310f788/raw/abbcfdc96b90f69ed2ad304edcf371bc4d037c64/subspace.lua'))()
+    end)
