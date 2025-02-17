@@ -15,7 +15,3 @@ local Section1 = Tab1:NewSection("Scripts")
 Section1:NewButton("Fly GUI V3", "Allows You To Fly", function()
     loadstring(game:HttpGet('https://gist.githubusercontent.com/BR3XALITY/2f343c8bdfb2a6d254ba45cb191ab9e2/raw/073c9c09a874958264386abe50f5554a66fd849e/fly.lua'))()
 end)
-
-Section1:NewButton("Noclip", "Toggleable Noclipping", function()
-    loadstring(game:HttpGet('https://gist.githubusercontent.com/BR3XALITY/2f343c8bdfb2a6d254ba45cb191ab9e2/raw/073c9c09a874958264386abe50f5554a66fd849e/noclip.lua'))()
-end)
