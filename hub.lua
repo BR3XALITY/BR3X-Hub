@@ -3,7 +3,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Text = "@boostedreality On YT",
     Icon = "rbxassetid://110743274616354"
 })
-setclipboard(tostring(https://youtube.com/@boostedreality))
+setclipboard("https://youtube.com/@boostedreality")  -- Fixed the URL string
 wait(3.0)
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/DenDenZZZ/Kavo-UI-Library/main/Kavo.lua"))()
