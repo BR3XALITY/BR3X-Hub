@@ -23,3 +23,7 @@ end)
 Section1:NewButton("Subplace Finder", "Allows You To Access Secret Subplaces In Games", function()
     loadstring(game:HttpGet('https://gist.githubusercontent.com/BR3XALITY/c2faac9cf981bab2859421f5e310f788/raw/abbcfdc96b90f69ed2ad304edcf371bc4d037c64/subspace.lua'))()
     end)
+
+Section1:NewButton("Chat Bypass", "Bypasses Chat, Language Must Be Set To Қазақ Тілі", function()
+    loadstring(game:HttpGet('https://pastefy.app/9hWD0emH/raw'))()
+    end)
