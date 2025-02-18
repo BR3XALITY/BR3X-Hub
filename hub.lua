@@ -8,7 +8,7 @@ wait(3.0)
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/DenDenZZZ/Kavo-UI-Library/main/Kavo.lua"))()
 
-local Window = Library.CreateLib("BR3X Hub", DarkTheme)
+local Window = Library.CreateLib("BR3X Hub", "DarkTheme")
 
 local Tab1 = Window:NewTab("Scripts")
 
