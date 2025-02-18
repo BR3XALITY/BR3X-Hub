@@ -8,7 +8,15 @@ wait(3.0)
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/DenDenZZZ/Kavo-UI-Library/main/Kavo.lua"))()
 
-local Window = Library.CreateLib("BR3X Hub", "DarkTheme")
+local colors = {
+    SchemeColor = Color3.fromRGB(0,255,255),
+    Background = Color3.fromRGB(0, 0, 0),
+    Header = Color3.fromRGB(0, 0, 0),
+    TextColor = Color3.fromRGB(255,255,255),
+    ElementColor = Color3.fromRGB(20, 20, 20)
+}
+
+local Window = Library.CreateLib("BR3X Hub", color)
 
 local Tab1 = Window:NewTab("Scripts")
 
@@ -39,3 +47,7 @@ end)
 Section2:NewButton("Teleport GUI", "if my calculations are correct, when this baby hits eighty-eight miles per hour… you're gonna see some serious ####", function()
     loadstring(game:HttpGet("https://gist.githubusercontent.com/BR3XALITY/999cd637f186ed2ec6998a78b48a935b/raw/2341291a7ea44ad5c2c88357153688ac24ab21a7/tp.lua"))()
 end)
+
+local Tab2 = Window:NewTab("Games")
+
+local Tab3=Window:NewTab("Settings") local Section2323 local Section2=Tab1:NewSection("Color") for theme,color in pairs(themes)do Section:NewColorPicker(theme,"Change your "..theme,color,function(color3)Library:ChangeColor(theme,color3)end)end
