@@ -33,7 +33,7 @@ end)
 local Section2 = Tab1:NewSection("GUI")
 
 Section2:NewButton("Sussy Hub", "My Name Is Diddy, Dad, I Want Some Kiddies, Diddy", function()
-    loadstring(game:HttpGet("https://gist.githubusercontent.com/BR3XALITY/450114532ad56ca0dfe426f57202bed1/raw/9b2771d48c8bc702bdafd6fdfa04abf82b23adfe/Cool.lua"))()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/BR3XALITY/450114532ad56ca0dfe426f57202bed1/raw/3ad8790a5e04f47758ce2b41aceb631eba1ef79f/Cool.lua"))()
 end)
 
 Section2:NewButton("Teleport GUI", "if my calculations are correct, when this baby hits eighty-eight miles per hour… you're gonna see some serious ####", function()
