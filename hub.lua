@@ -39,3 +39,7 @@ end)
 Section2:NewButton("Teleport GUI", "if my calculations are correct, when this baby hits eighty-eight miles per hour… you're gonna see some serious ####", function()
     loadstring(game:HttpGet("https://gist.githubusercontent.com/BR3XALITY/999cd637f186ed2ec6998a78b48a935b/raw/2341291a7ea44ad5c2c88357153688ac24ab21a7/tp.lua"))()
 end)
+
+Section2:NewButton("Wizard Tycoon GUI", "Dylan said it was epic", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Wizard%20Tycoon%20-%202%20Player/2pWizardTycoonGUI"))()
+end)
