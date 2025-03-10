@@ -43,3 +43,7 @@ end)
 Section2:NewButton("Wizard Tycoon GUI", "Dylan said it was epic", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Wizard%20Tycoon%20-%202%20Player/2pWizardTycoonGUI"))()
 end)
+
+Section2:NewButton("Brookhaven GUI", "Dylan said it was epic^²", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RFR-R1CH4RD/Loader/main/Salvatore.lua"))()
+    end)
