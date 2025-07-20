@@ -32,6 +32,10 @@ Section2:NewButton("Teleport GUI", "if my calculations are correct, when this ba
     loadstring(game:HttpGet("https://gist.githubusercontent.com/BR3XALITY/999cd637f186ed2ec6998a78b48a935b/raw/2341291a7ea44ad5c2c88357153688ac24ab21a7/tp.lua"))()
 end)
 
+Section2:NewButton("Kill GUI", "pwned, or whatever those forsaken fans say.", function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/BR3XALITY/6500c9572bf8d08bc84213da52a3044e/raw/fc34f5e2f04e8e010d327cdfdb674b2a7fbc905e/kill.lua"))()
+end)
+
 Section2:NewButton("Wizard Tycoon GUI", "Dylan said it was epic", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Wizard%20Tycoon%20-%202%20Player/2pWizardTycoonGUI"))()
 end)
